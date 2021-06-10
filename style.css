@@ -1,8 +1,10 @@
 img.bedroom{
   width: 900px;
   height: 600px;
-  margin: 25px auto 0 225px;
+  margin-left: auto;
+  margin-right: auto;
   border: 5px solid white;
+  display: block;
 }
 
 body{
@@ -16,8 +18,80 @@ h1{
 }
 
 img.house{
-  width: 800px;
-  height: 500px;
-  margin: 25px 25px 0 250px;
+  width: 900px;
+  height: 600px;
   border: 5px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p{
+  color: black;
+  border: 5px solid white;
+  background-color: white;
+  display: inline-flex;
+  position: relative;
+  left: 50px;
+  top: 250px;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+p:hover{
+  opacity: 100%;
+}
+
+/* .fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+} */
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }

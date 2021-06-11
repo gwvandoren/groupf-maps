@@ -34,8 +34,9 @@ p.mainopt1{
   word-wrap: normal;
   opacity: 0;
   transition: all 1s ease-in-out;
-  bottom: 400px;
+  bottom: 425px;
   left: 200px;
+  background-color: black;
 }
 p.mainopt1:hover{
   opacity: 100%;
@@ -51,6 +52,7 @@ p.mainopt2{
   transition: all 1s ease-in-out;
   bottom: 200px;
   left: 100px;
+  background-color: black;
 }
 p.mainopt2:hover{
   opacity: 100%;
@@ -66,6 +68,7 @@ p.mainopt3{
   transition: all 1s ease-in-out;
   bottom: 400px;
   left: 200px;
+  background-color: black;
 }
 p.mainopt3:hover{
   opacity: 100%;
@@ -87,6 +90,7 @@ p.bedopt1{
   transition: all 1s ease-in-out;
   bottom: 525px;
   left: 200px;
+  background-color: black;
 }
 p.bedopt1:hover{
   opacity: 100%;
@@ -102,6 +106,7 @@ p.bedopt2{
   transition: all 1s ease-in-out;
   bottom: 525px;
   left: 500px;
+  background-color: black;
 }
 p.bedopt2:hover{
   opacity: 100%;
@@ -115,6 +120,89 @@ img.bedmap{
   left: 975px;
 }
 
+img.basement{
+  width: 900px;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white;
+}
+
+img.basementmap{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 600px;
+  left: 575px;
+}
+p.baseopt1{
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 200px;
+  display: inline-flex;
+  word-wrap: normal;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  bottom: 500px;
+  left: 300px;
+}
+p.baseopt1:hover{
+  opacity: 100%;
+}
+
+p.baseopt2{
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 200px;
+  display: inline-flex;
+  word-wrap: normal;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  bottom: 570px;
+  left: 490px;
+}
+p.baseopt2:hover{
+  opacity: 100%;
+}
+
+img.livroom{
+  width: 900px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white;
+  display: block;
+}
+
+body.live{
+  background-color: black;
+}
+
+.container{
+    border-color: white(161, 142, 112);
+    border-radius: 10cm;
+}
+h1.live{
+      color: white;
+      text-align: center;
+      font-family: 'MedievalSharp' cursive;
+
+}
+img.liveroommap{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 600px;
+  left: 975px;
+}
+p.a{
+  color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
 
 /* .fade-in {
   animation: fadeIn ease 10s;

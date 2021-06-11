@@ -1,12 +1,3 @@
-img.bedroom{
-  width: 900px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 5px solid white;
-  display: block;
-}
-
 body{
   background-color: black;
 }
@@ -26,22 +17,104 @@ img.house{
   margin-right: auto;
 }
 
-
-p{
-  color: black;
+img.bedroom{
+  width: 900px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   border: 5px solid white;
-  background-color: white;
-  display: inline-flex;
+  display: block;
+}
+
+p.mainopt1{
   position: relative;
-  left: 50px;
-  top: 250px;
+  color: white;
+  width: 200px;
+  display: inline-flex;
+  word-wrap: normal;
   opacity: 0;
   transition: all 1s ease-in-out;
+  bottom: 400px;
+  left: 200px;
 }
-
-p:hover{
+p.mainopt1:hover{
   opacity: 100%;
 }
+
+p.mainopt2{
+  position: relative;
+  color: white;
+  width: 200px;
+  display: inline-flex;
+  word-wrap: normal;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  bottom: 200px;
+  left: 100px;
+}
+p.mainopt2:hover{
+  opacity: 100%;
+}
+
+p.mainopt3{
+  position: relative;
+  color: white;
+  width: 200px;
+  display: inline-flex;
+  word-wrap: normal;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  bottom: 400px;
+  left: 200px;
+}
+p.mainopt3:hover{
+  opacity: 100%;
+}
+
+p.a{
+  color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p.bedopt1{
+  position: relative;
+  color: white;
+  width: 200px;
+  display: inline-flex;
+  word-wrap: normal;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  bottom: 525px;
+  left: 200px;
+}
+p.bedopt1:hover{
+  opacity: 100%;
+}
+
+p.bedopt2{
+  position: relative;
+  color: white;
+  width: 200px;
+  display: inline-flex;
+  word-wrap: normal;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  bottom: 525px;
+  left: 500px;
+}
+p.bedopt2:hover{
+  opacity: 100%;
+}
+
+img.bedmap{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 680px;
+  left: 975px;
+}
+
 
 /* .fade-in {
   animation: fadeIn ease 10s;
